@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-
+/** we could set js variables for colors here, or use style components*/
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     lineHeight: 30,
     marginTop: 80,
     
-  },
+  },87u  ,,m3qmm3
 
   titleBold: {
     fontFamily: 'Poppins_600SemiBold'
