@@ -1,0 +1,4 @@
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: read what is on the link.
+[Dis]allow: it's useful info.

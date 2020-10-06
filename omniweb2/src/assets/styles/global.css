@@ -1,0 +1,66 @@
+:root {
+    font-size: 60%;
+ 
+     --color-background: #F0F0F7;
+     --color-primary-lighter: #81DAF5;
+     --color-primary-light: #01A9DB;
+     --color-primary: #2ECCFA;
+     --color-primary-dark: #00BFFF;
+     --color-primary-darker: #0489B1;
+     --color-secundary: #04D361;
+     --color-secundary-dark: #04BF58;
+     --color-title-in-primary: #FFFFFF;
+     --color-text-in-primary: #FAFAFA;
+     --color-text-title: #32264D;
+     --color-text-complement: #9C98A6;
+     --color-text-base: ##FAFAFA;
+     --color-line-in-white: #E6E6F0;
+     --color-input-background: #F8F8FC;
+     --color-button-text: #FFFFFF;
+     --color-box-base: #FFFFFF;
+     --color-box-footer: #FAFAFC;
+ }
+ /*settings for all tags*/
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ html, body, #root {
+     height: 100vh; /*viewport height*/    
+ }
+ 
+ body {
+     background: var(--color-background);
+ }
+ 
+ #root {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ body,
+ input,
+ button,
+ textarea {
+   font: 500 1.6rem Poppins;
+   /*1.6rem = 60% larger than standard size/useful for responsive designs*/
+   color: var(--color-text-base);
+ }
+ 
+ .container {
+     width: 90vw;
+     max-width: 700px;
+ }
+ 
+ @media (min-width: 700px) {
+     :root {
+         font-size: 62.5%;
+     }
+ }
+
+
+    
+  

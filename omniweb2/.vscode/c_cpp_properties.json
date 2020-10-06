@@ -1,0 +1,45 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.17763.0",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            
+            "workbench.iconTheme": "material-icon-theme",
+            "workbench.startupEditor": "newUntitledFile",
+
+            "explorer.compactFolders": false,
+            "editor.renderLineHighlight": "gutter",
+            "workbench.editor.labelFormat": "short",
+            "extensions.ignoreRecommendations": true,
+
+            "javascript.updateImportsOnFileMove.enabled": "never",
+            "typescript.updateImportsOnFileMove.enabled": "never",
+
+            "breadcrumbs.enabled": true,
+            "editor.parameterHints.enabled": false,
+            "explorer.confirmDragAndDrop": false,
+            "explorer.confirmDelete": false,
+            
+            "emmet.syntaxProfiles": { "javascript": "jsx" },
+            "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+            "javascript.suggest.autoImports": true,
+            "typescript.suggest.autoImports": true,
+
+            "workbench.colorTheme": "Omni"
+        }
+    ],
+    "version": 4
+}
